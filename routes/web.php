@@ -17,12 +17,10 @@ Route::get('/', function () {
     if (\Illuminate\Support\Facades\Auth::guest()){
         return view('auth.login');
     }
-    else {
-        return view('home');
-    }
+    else return view('home');
 });
 
 Auth::routes();
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/series', [\App\Http\Controllers\SerieController::class, 'index'])->name('series');
