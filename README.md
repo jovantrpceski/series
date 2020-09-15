@@ -7,8 +7,6 @@
 
 Јован Трпчески 142062
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
 ## Технологии
 
 За изработка на проектот се употребени следните технологии/алатки:
