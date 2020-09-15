@@ -46,4 +46,8 @@ class User extends Authenticatable
     {
         return $this->hasMany(Comment::class);
     }
+    public function progress()
+    {
+        return $this->hasMany(Progress::class);
+    }
 }

@@ -20,4 +20,8 @@ class Episode extends Model
     {
         return $this->hasMany(Comment::class);
     }
+    public function progress()
+    {
+        return $this->hasMany(Progress::class);
+    }
 }
